@@ -1,10 +1,10 @@
 (function () {
     var dogList = [
-        new Dog('Baby Bilbo', '/images/dog.png'),
-        new Dog('Happy Bilbo', '/images/dog-2.png'),
-        new Dog('Dancing Bilbo', '/images/dog-3.png'),
-        new Dog('Formal Bilbo', '/images/dog-4.png'),
-        new Dog('Rabbit Bilbo', '/images/dog-5.png'),
+        new Dog('Baby Bilbo', 'images/dog.png'),
+        new Dog('Happy Bilbo', 'images/dog-2.png'),
+        new Dog('Dancing Bilbo', 'images/dog-3.png'),
+        new Dog('Formal Bilbo', 'images/dog-4.png'),
+        new Dog('Rabbit Bilbo', 'images/dog-5.png'),
     ];
     var dogListElement = document.getElementsByClassName('dog-list')[0],
         dog = document.getElementsByClassName('dog')[0],

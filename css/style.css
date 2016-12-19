@@ -82,6 +82,7 @@ footer {
 }
 .dog__image {
     cursor: pointer;
+    border: 5px solid white;
 }
 
 .dog__click-counter {
