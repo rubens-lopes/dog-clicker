@@ -10,11 +10,7 @@ body {
     font-family: 'Arima Madurai', cursive;
     margin: 0;
     position: relative;
-}
-
-#click-counter {
-    text-align: right;
-    width: 540px;
+    line-height: 1.5;    
 }
 
 header,
@@ -23,9 +19,6 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-#dog {
-    cursor: pointer;
 }
 
 footer {
@@ -36,4 +29,24 @@ footer {
     box-sizing: border-box;
     line-height: 1.5;
     position: absolute;
+}
+
+.dog-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.dog-list__item:not(last-of-type) {
+    margin-right: 20px;
+}
+
+.dog-list__dog {
+    cursor: pointer;
+}
+
+.dog-list__click-counter {
+    text-align: right;
+    margin: 0;
 }
