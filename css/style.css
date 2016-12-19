@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+
+html {
+    background-color: #ddd;
+}
+
+body {
+    background-color: #aaa;
+    min-height: 100vh;
+    font-family: 'Arima Madurai', cursive;
+    margin: 0;
+    position: relative;
+}
+
+#click-counter {
+    text-align: right;
+    width: 540px;
+}
+
+header,
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#dog {
+    cursor: pointer;
+}
+
+footer {
+    bottom: 0;
+    width: 100vw;
+    text-align: right;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    position: absolute;
+}
