@@ -1,3 +1,3 @@
-#Dog clicker
+# Dog clicker
 
-live here
+live [demo](https://rubens-lopes.github.io/dog-clicker/)
